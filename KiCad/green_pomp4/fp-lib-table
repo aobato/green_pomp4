@@ -1,0 +1,12 @@
+(fp_lib_table
+  (lib (name FootPrint)(type KiCad)(uri M:/hirofumi/electronics/waterpomp-project2021/KiCad/green_pomp4/green_pomp4.pretty)(options "")(descr "")(disabled))
+  (lib (name C)(type KiCad)(uri M:/hirofumi/electronics/waterpomp-project2021/KiCad/green_pomp4/green_pomp4.pretty/C)(options "")(descr ""))
+  (lib (name D)(type KiCad)(uri M:/hirofumi/electronics/waterpomp-project2021/KiCad/green_pomp4/green_pomp4.pretty/D)(options "")(descr ""))
+  (lib (name FET)(type KiCad)(uri M:/hirofumi/electronics/waterpomp-project2021/KiCad/green_pomp4/green_pomp4.pretty/FET)(options "")(descr ""))
+  (lib (name IC)(type KiCad)(uri M:/hirofumi/electronics/waterpomp-project2021/KiCad/green_pomp4/green_pomp4.pretty/IC)(options "")(descr ""))
+  (lib (name L)(type KiCad)(uri M:/hirofumi/electronics/waterpomp-project2021/KiCad/green_pomp4/green_pomp4.pretty/LED)(options "")(descr ""))
+  (lib (name MCU)(type KiCad)(uri M:/hirofumi/electronics/waterpomp-project2021/KiCad/green_pomp4/green_pomp4.pretty/MCU)(options "")(descr ""))
+  (lib (name MCU_Microship)(type KiCad)(uri M:/hirofumi/electronics/waterpomp-project2021/KiCad/green_pomp4/green_pomp4.pretty/MCU_Microchip)(options "")(descr ""))
+  (lib (name green_pomp4)(type KiCad)(uri ${KIPRJMOD}/green_pomp4.pretty)(options "")(descr ""))
+  (lib (name graphics)(type KiCad)(uri M:/hirofumi/electronics/waterpomp-project2021/KiCad/green_pomp4/graphics.pretty)(options "")(descr ""))
+)

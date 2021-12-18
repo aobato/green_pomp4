@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>M:\hirofumi\electronics\waterpomp-project2021\KiCad\green_pomp4\green_pomp4.sch</source>
+    <date>2021/11/14 11:05:33</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>green_pomp4.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C9">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://akizukidenshi.com/download/ds/murata/RDER72E104K2K1H03B.pdf</datasheet>
+      <fields>
+        <field name="amoc">P-10147</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0A6A1D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="amoc">R-25471</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0D5BD4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="amoc">R-25103</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0D5C2B</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2SK4017</value>
+      <footprint>FET:2SK4017_Q</footprint>
+      <fields>
+        <field name="amoc">I-07597</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BUZ11" description="30A Id, 50V Vds, N-Channel Power MOSFET, TO-220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0D5C9A</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>15p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>https://akizukidenshi.com/download/ds/murata/RDE5C2A150J0K1C03.pdf</datasheet>
+      <fields>
+        <field name="amoc">P-05108</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0EA248</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>15p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>https://akizukidenshi.com/download/ds/murata/RDE5C2A150J0K1C03.pdf</datasheet>
+      <fields>
+        <field name="amoc">P-05108</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0EB41A</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768KHz</value>
+      <footprint>Crystal:Crystal_Round_D3.0mm_Vertical</footprint>
+      <datasheet>https://akizukidenshi.com/download/ds/ablic/VT-200F.pdf</datasheet>
+      <fields>
+        <field name="amoc">P-04005</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="Crystal" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0EB7F5</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>D:1S4_V</footprint>
+      <datasheet>https://akizukidenshi.com/download/1S4.pdf</datasheet>
+      <fields>
+        <field name="amoc">I-00127</field>
+      </fields>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0F0654</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>voltage</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="amoc">I-11577</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B116175</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>next</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <fields>
+        <field name="amoc">P-03648</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="SW_Push_Dual" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1164AF</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>D:1S4_V</footprint>
+      <datasheet>https://akizukidenshi.com/download/1S4.pdf</datasheet>
+      <fields>
+        <field name="amoc">I-00127</field>
+      </fields>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B12FFFC</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="amoc">P-03177</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="CP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B12D4FB</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>pin_header</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="amoc">C-00167</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="HEADER_5" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0F1723</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>enter</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <fields>
+        <field name="amoc">P-03651</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="SW_Push_Dual" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2639AD</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://akizukidenshi.com/download/ds/murata/RDER72E104K2K1H03B.pdf</datasheet>
+      <fields>
+        <field name="amoc">P-10147</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B277FD2</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>reset</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <fields>
+        <field name="amoc">P-03646</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="SW_Push_Dual" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B122D64</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>start</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="amoc">I-11577</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60698F3B</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>interval</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="amoc">I-11577</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6069C36C</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>water</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="amoc">I-11577</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6071DE2A</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>wait</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="amoc">I-11577</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6077B363</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>HDSP-K123</value>
+      <footprint>green_pomp4:HDSP-K123</footprint>
+      <fields>
+        <field name="amoc">I-10947</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="HDSP-K123-RESCUE-green_pomp3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2F0190</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://akizukidenshi.com/download/ds/murata/RDER72E104K2K1H03B.pdf</datasheet>
+      <fields>
+        <field name="amoc">P-10147</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2F59C8</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TM1640</value>
+      <footprint>MCU_Microship:DSPIC30F2010-20I_SO</footprint>
+      <datasheet>https://akizukidenshi.com/download/ds/titanmicro/TM1640_V1.0_EN.PDF</datasheet>
+      <fields>
+        <field name="amoc">I-13225</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="TM1640" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2DDD18</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="amoc">R-25471</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610A4438</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>MOTOR</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="green_pomp3-rescue" part="HEADER_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0F05DB</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>POWER</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical</footprint>
+      <libsource lib="green_pomp3-rescue" part="HEADER_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B117F09</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D7.5mm_P2.50mm</footprint>
+      <datasheet>https://akizukidenshi.com/download/35ZLH100M.pdf</datasheet>
+      <fields>
+        <field name="amoc">P-02724</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="CP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B12E6A1</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>47uH</value>
+      <footprint>Inductor_THT:L_Radial_D8.7mm_P5.00mm_Fastron_07HCP</footprint>
+      <datasheet>https://akizukidenshi.com/download/LHL08NB470K.pdf</datasheet>
+      <fields>
+        <field name="amoc">P-04047</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B13EE83</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://akizukidenshi.com/download/ds/rubycon/PK_series.pdf</datasheet>
+      <fields>
+        <field name="amoc">P-03179</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B14AA6B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>HT7750A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>https://akizukidenshi.com/download/ds/holtek/HT77XXA.pdf</datasheet>
+      <fields>
+        <field name="amoc">I-02800</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="HT7750A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1304E4</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://akizukidenshi.com/download/ds/murata/RDER72E104K2K1H03B.pdf</datasheet>
+      <fields>
+        <field name="amoc">P-10147</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B12F43D</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1000uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>https://akizukidenshi.com/download/35ZLH1000M.pdf</datasheet>
+      <fields>
+        <field name="amoc">P-02722</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="CP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0D44F4</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>PIC16F18323-I/P</value>
+      <footprint>MCU_Microship:PIC16F1503-I_P</footprint>
+      <datasheet>https://akizukidenshi.com/download/ds/microchip/PIC16(L)F18313_18323.pdf</datasheet>
+      <fields>
+        <field name="amoc">I-13287</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="PIC16F1503" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0A6906</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="amoc">R-25471</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B25250D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="amoc">R-25103</field>
+      </fields>
+      <libsource lib="green_pomp3-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0D48AC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BUZ11">
+      <aliases>
+        <alias>IRF3205</alias>
+        <alias>IRF540N</alias>
+        <alias>IRF740</alias>
+        <alias>IRLB8721PBF</alias>
+        <alias>IRLZ34N</alias>
+        <alias>IRLZ44N</alias>
+        <alias>VNP10N07</alias>
+        <alias>IPP060N06N</alias>
+      </aliases>
+      <description>30A Id, 50V Vds, N-Channel Power MOSFET, TO-220</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BUZ11.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BUZ11</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="green_pomp3-rescue" part="CP">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="green_pomp3-rescue" part="C_Small">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="green_pomp3-rescue" part="Crystal">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="green_pomp3-rescue" part="HDSP-K123-RESCUE-green_pomp3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HDSP-K123-RESCUE-green_pomp3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E1" type="passive"/>
+        <pin num="2" name="D1" type="passive"/>
+        <pin num="3" name="C1" type="passive"/>
+        <pin num="4" name="DP1" type="passive"/>
+        <pin num="5" name="E2" type="passive"/>
+        <pin num="6" name="D2" type="passive"/>
+        <pin num="7" name="G2" type="passive"/>
+        <pin num="8" name="C2" type="passive"/>
+        <pin num="9" name="DP2" type="passive"/>
+        <pin num="10" name="B2" type="passive"/>
+        <pin num="11" name="A2" type="passive"/>
+        <pin num="12" name="F2" type="passive"/>
+        <pin num="13" name="C.CA2" type="passive"/>
+        <pin num="14" name="C.CA1" type="passive"/>
+        <pin num="15" name="B1" type="passive"/>
+        <pin num="16" name="A1" type="passive"/>
+        <pin num="17" name="G1" type="passive"/>
+        <pin num="18" name="F1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="green_pomp3-rescue" part="HEADER_2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="green_pomp3-rescue" part="HEADER_5">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vpp" type="passive"/>
+        <pin num="2" name="Vdd" type="passive"/>
+        <pin num="3" name="Vss" type="passive"/>
+        <pin num="4" name="ICSPDAT" type="passive"/>
+        <pin num="5" name="ICSPCLK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="green_pomp3-rescue" part="HT7750A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HT7750A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="Vout" type="passive"/>
+        <pin num="3" name="LX" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="green_pomp3-rescue" part="LED">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="green_pomp3-rescue" part="PIC16F1503">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC16F1503</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="passive"/>
+        <pin num="2" name="RA5/SOSCI" type="BiDi"/>
+        <pin num="3" name="RA4/SOSCO" type="BiDi"/>
+        <pin num="4" name="MCLR" type="BiDi"/>
+        <pin num="5" name="RC5" type="BiDi"/>
+        <pin num="6" name="RC4" type="BiDi"/>
+        <pin num="7" name="RC3" type="BiDi"/>
+        <pin num="8" name="RC2" type="BiDi"/>
+        <pin num="9" name="RC1" type="BiDi"/>
+        <pin num="10" name="RC0" type="BiDi"/>
+        <pin num="11" name="RA2/INT" type="BiDi"/>
+        <pin num="12" name="RA1/ICSPCLK" type="passive"/>
+        <pin num="13" name="RA0/ICSPDAT" type="passive"/>
+        <pin num="14" name="Vss" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="green_pomp3-rescue" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="green_pomp3-rescue" part="SW_Push_Dual">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_Dual</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="green_pomp3-rescue" part="TM1640">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TM1640</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GRID12" type="passive"/>
+        <pin num="2" name="GRID13" type="passive"/>
+        <pin num="3" name="GRID14" type="passive"/>
+        <pin num="4" name="GRID15" type="passive"/>
+        <pin num="5" name="GRID16" type="passive"/>
+        <pin num="6" name="Vss" type="passive"/>
+        <pin num="7" name="Din" type="passive"/>
+        <pin num="8" name="Sclk" type="passive"/>
+        <pin num="9" name="SEG1" type="passive"/>
+        <pin num="10" name="SEG2" type="passive"/>
+        <pin num="11" name="SEG3" type="passive"/>
+        <pin num="12" name="SEG4" type="passive"/>
+        <pin num="13" name="SEG5" type="passive"/>
+        <pin num="14" name="SEG6" type="passive"/>
+        <pin num="15" name="SEG7" type="passive"/>
+        <pin num="16" name="SEG8" type="passive"/>
+        <pin num="17" name="Vdd" type="passive"/>
+        <pin num="18" name="GRID1" type="passive"/>
+        <pin num="19" name="GRID2" type="passive"/>
+        <pin num="20" name="GRID3" type="passive"/>
+        <pin num="21" name="GRID4" type="passive"/>
+        <pin num="22" name="GRID5" type="passive"/>
+        <pin num="23" name="GRID6" type="passive"/>
+        <pin num="24" name="GRID7" type="passive"/>
+        <pin num="25" name="GRID8" type="passive"/>
+        <pin num="26" name="GRID9" type="passive"/>
+        <pin num="27" name="GRID10" type="passive"/>
+        <pin num="28" name="GRID11" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="DIODE">
+      <description>Diode symbol for simulation only. Pin order incompatible with official kicad footprints</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="A" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="green_pomp3-rescue">
+      <uri>M:\hirofumi\electronics\waterpomp-project2021\KiCad\green_pomp4/green_pomp3-rescue.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C9" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U3" pin="17"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U4" pin="14"/>
+      <node ref="J3" pin="3"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW2" pin="4"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="SW3" pin="4"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="3" name="+BATT">
+      <node ref="R5" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="5" name="Net-(R5-Pad1)">
+      <node ref="U4" pin="6"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad2)">
+      <node ref="U3" pin="12"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(LED2-Pad1)">
+      <node ref="LED2" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="8" name="Net-(U3-Pad7)">
+      <node ref="U4" pin="8"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="9" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="10" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="11" name="Net-(U3-Pad28)">
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="12" name="Net-(U3-Pad27)">
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="13" name="Net-(U3-Pad26)">
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="14" name="Net-(U3-Pad25)">
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="15" name="Net-(U3-Pad24)">
+      <node ref="U3" pin="24"/>
+    </net>
+    <net code="16" name="Net-(U3-Pad23)">
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="17" name="Net-(U3-Pad22)">
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="18" name="Net-(U3-Pad21)">
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="19" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="22" name="Net-(C1-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="23" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="24" name="Net-(U3-Pad8)">
+      <node ref="U3" pin="8"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="25" name="Net-(J3-Pad5)">
+      <node ref="U4" pin="12"/>
+      <node ref="J3" pin="5"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW2" pin="3"/>
+    </net>
+    <net code="26" name="Net-(SW3-Pad1)">
+      <node ref="U4" pin="11"/>
+      <node ref="SW3" pin="3"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="27" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="28" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="29" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="30" name="Net-(LED4-Pad1)">
+      <node ref="LED4" pin="1"/>
+      <node ref="U3" pin="15"/>
+      <node ref="U1" pin="17"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="31" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="32" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="33" name="Net-(LED1-Pad2)">
+      <node ref="LED4" pin="2"/>
+      <node ref="LED2" pin="2"/>
+      <node ref="LED3" pin="2"/>
+      <node ref="LED1" pin="2"/>
+      <node ref="LED5" pin="2"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="34" name="Net-(C10-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="C10" pin="1"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="35" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="36" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="37" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="38" name="Net-(LED1-Pad1)">
+      <node ref="U3" pin="14"/>
+      <node ref="U1" pin="18"/>
+      <node ref="U1" pin="12"/>
+      <node ref="LED1" pin="1"/>
+    </net>
+    <net code="39" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="40" name="Net-(LED5-Pad1)">
+      <node ref="U3" pin="16"/>
+      <node ref="U1" pin="9"/>
+      <node ref="LED5" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="41" name="Net-(LED3-Pad1)">
+      <node ref="LED3" pin="1"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad1)">
+      <node ref="U3" pin="13"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U3" pin="11"/>
+    </net>
+  </nets>
+</export>
